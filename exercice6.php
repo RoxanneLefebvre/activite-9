@@ -24,6 +24,18 @@ for ($j=0; $j<26; $j++) {
 	$newDeck[] = $subdeck2[$j];
 }
 
+for ($r=0; $r<count($newdeck); $r++) {
+    echo $newdeck[$r];
+}
+
+
+
+
+
+
+
+
+
 print_r($subdeck1);
 echo "<br>";
 print_r($subdeck2);
